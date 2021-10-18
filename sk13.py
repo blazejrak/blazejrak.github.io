@@ -19,7 +19,7 @@ def s(y, z):
         if z == 1:
             return int(x)
         elif z == 0:
-            if type(int(x.replace(", ", ""))) != str and ", " in x:
+            if type(int(x.replace(", ", ""))) != str:
                 return list(x.replace(" ", ""))
         elif z == 2:
             if "tak" == x or "nie" == x:
@@ -33,7 +33,7 @@ for i in c:
     x.append((i ** d) % n)
     z.append(i ** d)
     y.append(chr((i ** d) % n))
-if z == "tak":
+if w == "tak":
     print("c do potęgi d: {a}".format(a = z))
 print("wynik ASCII: {a} \nwyniki str(surowe): {b}\nwyniki str(obrobione): {c}".format(a = x, b = y, c = "".join(y)))
 #2412, 1120, 2412, 2060, 144, 2412, 2060, 471, 3041, 1366, 2412

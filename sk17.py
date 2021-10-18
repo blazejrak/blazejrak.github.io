@@ -40,7 +40,7 @@ def s(y, z):
             return str(x)
     except ValueError:
         return sp(y, z)
-m, pp, e = s("iformacje do zaszyfrowania", 2), [], s("chcesz widzieć potęgi(tak/nie)", 0)
+m, pp, mp = s("iformacje do zaszyfrowania", 2), [], s("chcesz widzieć potęgi(tak/nie)", 0)
 a = s("komplikacje szyfrowania", 1)
 ppq = ax(a)
 print(ppq)
@@ -61,6 +61,6 @@ for i in m:
     pf.append(ord(i) <=  n)
 for i in c:
     t.append(chr(i))
-if e == "tak":
+if mp == "tak":
     print("m do potęgi e: {pa}".format(pa = u))
 print("wylosowana liczba pierwsza p: {e}\nwylosowana liczba pierwsza q:{f} \np*q: {c} \nwylosowana mniejsza od (p*q): {d} \nklucz: {b} \nszyfr: {a}\nszyfr na ASCII: {aA}".format(a = c, b = d, c = n, d = e, e = p, f = q, aA = "".join(t)))
