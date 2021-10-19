@@ -39,3 +39,4 @@ print("wynik ASCII: {a} \nwyniki str(surowe): {b}\nwyniki str(obrobione): {c}".f
 #2412, 1120, 2412, 2060, 144, 2412, 2060, 471, 3041, 1366, 2412
 #2897
 #3139
+#
